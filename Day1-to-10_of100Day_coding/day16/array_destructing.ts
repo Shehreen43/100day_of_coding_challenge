@@ -16,3 +16,6 @@
   console.log(firstLaptop);
   console.log(secondLaptop);
   
+//output:
+//{ make: 'Dell', model: 'New Elite Series', year: 2024 }
+//{ make: 'Apple', model: 'MacBook Pro', year: 2023 }

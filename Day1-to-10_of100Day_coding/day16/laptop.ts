@@ -14,7 +14,7 @@ interface Laptop {
     model: "XPS",
     year: 2022,
     describe: function() {
-      console.log(`This is a ${this.make} ${this.model} from ${this.year}.`);
+     return console.log(`This is a ${this.make} ${this.model} from ${this.year}.`);
     }
   };
 console.log(laptop.describe());
