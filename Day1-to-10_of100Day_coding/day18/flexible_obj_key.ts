@@ -4,23 +4,6 @@ Question 54: Making Flexible Object Keys: Learn how to set up a list where you c
  what you need at that moment, like adjusting labels based on user choices.
 */
 
-// A way to make a flexible list
-function createObjectWithDynamicKey(key: string, value:) {
-    interface DynamicObject  {
-        [key: string]: any
-    };
-    let dynamicObject: DynamicObject = {};
-    // Setting up a section in the list with a changeable name
-    dynamicObject[key] = value;
-    return dynamicObject;
-}
-// Using the flexible list setup for a user's preference
-let userPreference = createObjectWithDynamicKey("theme", "dark");
-userPreference = createObjectWithDynamicKey("name", "shehreen");
-// Showing the user's choice
-console.log(userPreference);
-//
- ///////////////////////////////
   // Define a type for a flexible object with string keys and any values
 interface FlexibleObject {
     [key: string]: any;
