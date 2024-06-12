@@ -10,7 +10,7 @@ interface FlexibleObject {
   }
   
   // Function to adjust labels of a flexible object based on user input
-  function adjustLabels(obj: FlexibleObject, newLabels: { [key: string]: string }): FlexibleObject {
+  function adjustedLabels(obj: FlexibleObject, newLabels: { [key: string]: string }): FlexibleObject {
     const adjustedObject: FlexibleObject = {};
     
     for (const key in obj) {
@@ -35,7 +35,7 @@ interface FlexibleObject {
     age: 'yearsOld'
   };
   
-  const adjustedObject = adjustLabels(originalObject, userLabels);
+  const adjustedObject = adjustedLabels(originalObject, userLabels);
   
   console.log('Original Object:', originalObject);
   console.log('Adjusted Object:', adjustedObject);

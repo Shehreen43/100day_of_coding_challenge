@@ -10,7 +10,7 @@ interface Student {
 }
 
 // Example student object
-const exampleStudent: Student = {
+const student_1: Student = {
     name: 'John Doe',
     age: 20,
     classes: [
@@ -21,7 +21,7 @@ const exampleStudent: Student = {
     ]
 };
 
-function printStudentInfo(student: Student): void {
+function print_studentInfo(student: Student): void {
     console.log(`Student Name: ${student.name}`);
     console.log(`Age: ${student.age}`);
     console.log('Classes:');
@@ -30,4 +30,4 @@ function printStudentInfo(student: Student): void {
     });
 }
 
-printStudentInfo(exampleStudent);
+print_studentInfo(student_1);

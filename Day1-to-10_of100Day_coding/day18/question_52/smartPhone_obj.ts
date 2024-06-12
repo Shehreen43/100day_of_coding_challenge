@@ -13,7 +13,7 @@ interface Smartphone {
     };
 }
 // Sets up details about a smartphone
-let smartphone = {
+let smartPhone = {
     make: "Apple",
     model: "iPhone 13",
     specs: {
@@ -23,17 +23,17 @@ let smartphone = {
     }
 };
 
-function smartPhoneDetailed () {
+function smart_phoneDetailed () {
     return `Smart Phone Details:
-    Brand: ${smartphone.make}
-    Model: ${smartphone.model}
-    Storage: ${smartphone.specs.storage} GB
-    Screen Size: ${smartphone.specs.screenSize} inches
-    Battery Life: ${smartphone.specs.batteryLife} hours`
+    Brand: ${smartPhone.make}
+    Model: ${smartPhone.model}
+    Storage: ${smartPhone.specs.storage} GB
+    Screen Size: ${smartPhone.specs.screenSize} inches
+    Battery Life: ${smartPhone.specs.batteryLife} hours`
 }
-const my_phone = smartPhoneDetailed();
+const myPhone = smart_phoneDetailed();
 
-console.log(my_phone);
+console.log(myPhone);
 
 /*
 outout will be :
