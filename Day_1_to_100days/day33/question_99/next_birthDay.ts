@@ -14,15 +14,11 @@ function getNextBirthday(month: number, day: number): Date {
   // If the birthday this year has already passed, use next year's date
       birthday.setFullYear(year + 1);
     }
-    if (birthday === today) {
-        console.log(`Congratulation!, today is your Birthday ${birthday}`);
-        
-    }
     return birthday;
   }
   
   // Replace with your birth month and day
-  const nextBirthday = getNextBirthday(7, 3); 
-  console.log("Next birthday on:", nextBirthday.toLocaleDateString());
+  const nextBirthday = getNextBirthday(3, 3); 
+  console.log("Your next birthday on:", nextBirthday.toLocaleDateString());
   // Shows the date of the next birthday.
                 

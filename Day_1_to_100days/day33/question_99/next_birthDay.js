@@ -15,6 +15,6 @@ function getNextBirthday(month, day) {
     return birthday;
 }
 // Replace with your birth month and day
-var nextBirthday = getNextBirthday(7, 7);
-console.log("Next birthday on:", nextBirthday.toLocaleDateString());
+var nextBirthday = getNextBirthday(3, 3);
+console.log("Your next birthday on:", nextBirthday.toLocaleDateString());
 // Shows the date of the next birthday.
