@@ -39,4 +39,4 @@ function daysOfTheWeek(day: number) {
     }
 };
 
-console.log(daysOfTheWeek(1));
+daysOfTheWeek(1);
